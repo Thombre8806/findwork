@@ -1,5 +1,8 @@
 /* --- CSS Variables --- */
-@import "tailwindcss";
+/* @import 'tailwindcss'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --primary: #2563eb;
